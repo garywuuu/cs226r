@@ -1,9 +1,18 @@
 import numpy as np 
 
-class Agent:
+class adv_Agent:
   def __init__(self):
     self.id = id
-    self.age = age
+    self.group = 0
+
+  def print_details(self):
+    print(f"Name: {self.name}")
+    print(f"Age: {self.age}")
+
+class disadv_Agent: 
+  def __init__(self):
+    self.id = id
+    self.group = 0
 
   def print_details(self):
     print(f"Name: {self.name}")
